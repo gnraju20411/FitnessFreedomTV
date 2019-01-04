@@ -15,6 +15,7 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
 import { ShowsModule } from './shows/shows.module';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ImageModalComponent } from './modals/image-modal/image-modal.component';
+import { LoginModalComponent } from './modals/login-modal/login-modal.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ImageModalComponent } from './modals/image-modal/image-modal.component'
     HomeComponent,
     ContactUsComponent,
     AboutUsComponent,
-    ImageModalComponent
+    ImageModalComponent,
+    LoginModalComponent
   ],
   entryComponents: [
     ImageModalComponent
