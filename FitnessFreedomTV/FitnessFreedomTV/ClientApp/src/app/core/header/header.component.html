@@ -1,0 +1,94 @@
+<div class="container">
+  <div class="header-top">
+    <div class="container">
+      <div class="float-left">
+        <ul class="left-text">
+          <li>
+            <a ngbTooltip="Facebook" placement="bottom" href="https://www.facebook.com/FitnessFreedomTV">
+              <i class="fa fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a ngbTooltip="Twitter" placement="bottom" href="login.html">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a ngbTooltip="Pinterest" placement="bottom" href="https://pinterest.com/fitnessfreedomtv">
+              <i class="fa fa-dribbble"></i>
+            </a>
+          </li>
+          <li>
+            <a ngbTooltip="Instagram" placement="bottom" href="https://www.instagram.com/fitnessfreedomtv/">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a ngbTooltip="Youtube" placement="bottom" href="https://youtube.com/c/FitnessFreedomTV">
+              <i class="fa fa-youtube"></i>
+            </a>
+          </li>
+          <li>
+            <a ngbTooltip="Bitchute" placement="bottom" href="https://www.bitchute.com/channel/fitnessfreedomtv/">
+              <i class="fa fa-video"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="float-right">
+        <ul class="right-text">
+          <li>
+            <a href="login.html">
+              <i class="fa fa-phone"></i>
+              012-6532-568-9746
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-envelope"></i>
+              helpdesk@fitnessfreedomtv.com
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+      <div class="col-md-12">
+        <a class="navbar-brand" href="#">
+          <img src="/assets/FFTVLOGO.png" /> 
+        </a>
+        <button class="navbar-toggler hidden-sm-up float-right" type="button" (click)="isNavbarCollapsed = !isNavbarCollapsed" data-target="#navbarsDefault"
+          aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div [ngbCollapse]="isNavbarCollapsed" class="collapse navbar-collapse  pull-right" id="navbarsDefault">
+          <ul class="navbar-nav pull-right">
+            <li class="nav-item">
+              <a class="nav-link" href="/home" routerLinkActive="active">Home</a>
+            </li>
+            <!--<li class="nav-item dropdown" ngbDropdown>
+              <a class="nav-link dropdown-toggle" id="id01" ngbDropdownToggle>Files</a>
+              <div class="dropdown-menu" aria-labelledby="id01" ngbDropdownMenu>
+                <a class="dropdown-item" href="#">HTML</a>
+                <a class="dropdown-item" href="#">TS</a>
+                <a class="dropdown-item" href="#">JS</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" routerLinkActive="active">Menu 2</a>
+            </li>-->
+            <li class="nav-item">
+              <a class="nav-link" href="/aboutus" routerLinkActive="active">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contactus" routerLinkActive="active">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>

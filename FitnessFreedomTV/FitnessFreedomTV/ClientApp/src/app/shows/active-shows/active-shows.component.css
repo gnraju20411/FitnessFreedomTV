@@ -1,0 +1,21 @@
+.showImg {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.ImgDev {
+  padding-bottom: 30px;
+  padding-right: 5px
+}
+
+.post-thumbnail{
+  margin-bottom: 10px;
+}
+.post-title{
+  text-align:center;
+}
+
+  .post-title > h4 > a:hover {
+    color: #f62e46;
+    text-decoration:solid;
+  }

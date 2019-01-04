@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Circuit Training",
+    "path": "https://fitnessfreedomtv.com/wp-content/uploads/2010/10/DSC_7966-768x512.png",
+    "orgPath": "https://fitnessfreedomtv.com/wp-content/uploads/2010/10/DSC_7966.png"
+  },
+  {
+    "id": 2,
+    "name": "Interval Training",
+    "path": "https://fitnessfreedomtv.com/wp-content/uploads/2008/10/DSC_7952-768x512.png",
+    "orgPath": "https://fitnessfreedomtv.com/wp-content/uploads/2010/10/DSC_7952.png"
+  },
+  {
+    "id": 3,
+    "name": "Mind & Body",
+    "path": "https://fitnessfreedomtv.com/wp-content/uploads/2002/12/DSC_7961-768x512.png",
+    "orgPath": "https://fitnessfreedomtv.com/wp-content/uploads/2010/10/DSC_7961.png"
+  },
+  {
+    "id": 4,
+    "name": "Functional Classes",
+    "path": "https://fitnessfreedomtv.com/wp-content/uploads/2001/10/DSC_7978-768x512.png",
+    "orgPath": "https://fitnessfreedomtv.com/wp-content/uploads/2010/10/DSC_7978.png"
+  },
+  {
+    "id": 5,
+    "name": "Gym Training",
+    "path": "https://fitnessfreedomtv.com/wp-content/uploads/2018/12/Gym-768x512.jpg",
+    "orgPath": "https://fitnessfreedomtv.com/wp-content/uploads/2018/12/Gym.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Rehabilitation",
+    "path": "https://fitnessfreedomtv.com/wp-content/uploads/2018/12/Rehabilitation-768x434.jpg",
+    "orgPath": "https://fitnessfreedomtv.com/wp-content/uploads/2018/12/Rehabilitation.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Dance Classes",
+    "path": "https://fitnessfreedomtv.com/wp-content/uploads/2018/12/Dance-768x512.jpg",
+    "orgPath": "https://fitnessfreedomtv.com/wp-content/uploads/2018/12/Dance.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Aerobics",
+    "path": "https://fitnessfreedomtv.com/wp-content/uploads/2018/12/Aerobics-768x513.jpg",
+    "orgPath": "https://fitnessfreedomtv.com/wp-content/uploads/2018/12/Aerobics.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Power Classes",
+    "path": "https://fitnessfreedomtv.com/wp-content/uploads/2018/12/Aerobics-768x513.jpg",
+    "orgPath": "https://fitnessfreedomtv.com/wp-content/uploads/2004/10/Power.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Step Aerobics",
+    "path": "https://fitnessfreedomtv.com/wp-content/uploads/2018/12/StepAerobics-768x1151.jpg",
+    "orgPath": "https://fitnessfreedomtv.com/wp-content/uploads/2018/12/StepAerobics.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Tae Bo",
+    "path": "https://fitnessfreedomtv.com/wp-content/uploads/2018/12/TaeBo-768x512.jpg",
+    "orgPath": "https://fitnessfreedomtv.com/wp-content/uploads/2018/12/TaeBo.jpg"
+  }
+]

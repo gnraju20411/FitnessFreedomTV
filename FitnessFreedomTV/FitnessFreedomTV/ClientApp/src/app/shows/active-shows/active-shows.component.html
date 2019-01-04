@@ -1,0 +1,31 @@
+<div class="row">
+  <div class="col-xl-4 col-md-6 col-sm-6 col-xs-12 ImgDev" *ngFor="let image of imagesJson">
+    <figure class="post-thumbnail">
+      <a href="#" (click)="open(image.path, image.name)" [title]="image.name" class="">
+        <img [src]="image.path" class="showImg img-rounded">
+      </a>
+    </figure>
+    <div class="post-title">
+      <h4>
+        <a href="#">{{image.name}}</a>
+      </h4>
+    </div>
+  </div>
+</div>
+<!-- 
+<template #content>
+  <div class="modal-header">
+    <h4 class="modal-title">Modal title</h4>
+    
+  </div>
+  <div class="modal-body">
+    <p>One fine body&hellip; {{closeResult}}</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" (click)="c('Close click')">Close</button>
+  </div>
+</template> -->
+<pre>{{closeResult}}</pre>
+<!--<div class="col-sm-3" *ngFor="let image of imagesJson">
+  <img [src]="image.path" [alt]="image.name" />
+</div>-->

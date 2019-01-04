@@ -1,0 +1,24 @@
+.footer-area {
+  background-color: #222222;
+}
+
+.section_gap {
+  padding: 15px 0px;
+}
+
+.footer-area h6 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.single-footer-widget .footer-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.single-footer-widget h3 {
+  color: #ffffff;
+}
