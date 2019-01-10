@@ -58,7 +58,7 @@
     <div class="container">
       <div class="col-md-12">
         <a class="navbar-brand" href="#">
-          <img src="/assets/FFTVLOGO.png" /> 
+          <img src="assets/FFTVLOGO.png" /> 
         </a>
         <button class="navbar-toggler hidden-sm-up float-right" type="button" (click)="isNavbarCollapsed = !isNavbarCollapsed" data-target="#navbarsDefault"
           aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,22 +69,14 @@
             <li class="nav-item">
               <a class="nav-link" href="/home" routerLinkActive="active">Home</a>
             </li>
-            <!--<li class="nav-item dropdown" ngbDropdown>
-              <a class="nav-link dropdown-toggle" id="id01" ngbDropdownToggle>Files</a>
-              <div class="dropdown-menu" aria-labelledby="id01" ngbDropdownMenu>
-                <a class="dropdown-item" href="#">HTML</a>
-                <a class="dropdown-item" href="#">TS</a>
-                <a class="dropdown-item" href="#">JS</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" routerLinkActive="active">Menu 2</a>
-            </li>-->
             <li class="nav-item">
               <a class="nav-link" href="/aboutus" routerLinkActive="active">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/contactus" routerLinkActive="active">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" (click)="open('Login')" routerLinkActive="active">Login</a>
             </li>
           </ul>
         </div>

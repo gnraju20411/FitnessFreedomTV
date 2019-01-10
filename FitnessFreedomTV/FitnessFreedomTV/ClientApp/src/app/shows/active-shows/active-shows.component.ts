@@ -10,7 +10,6 @@ import { ImageModalComponent } from 'src/app/modals/image-modal/image-modal.comp
 })
 export class ActiveShowsComponent implements OnInit {
   private imagesJson: any;
-  closeResult: string;
 
   constructor(private testServices: TestService, private modalService: NgbModal) { }
   

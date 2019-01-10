@@ -16,6 +16,6 @@ export class TestService {
   }
 
   getImagesJson() {
-    return this.http.get('/assets/data/images.json');
+    return this.http.get('assets/data/images.json');
   }
 }
